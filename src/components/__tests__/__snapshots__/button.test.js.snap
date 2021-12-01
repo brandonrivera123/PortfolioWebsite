@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Smoke Test matches snapshot 1`] = `
+<button
+  className="sc-bdvvtL eAGxvH button"
+>
+  <div
+    className="sc-dkPtRN iycVBf"
+    color="#fff"
+    onMouseDown={[Function]}
+  />
+  <span
+    className="sc-gsDKAQ dXYkjU"
+  >
+    button
+  </span>
+</button>
+`;
