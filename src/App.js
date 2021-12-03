@@ -1,7 +1,7 @@
 import { useEffect, useContext } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Routes } from "./Routes";
-import { NavBar, AppWrapper } from "./components/layout";
+import { NavBar } from "./components/layout";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./styles/theme";
 import { darkModeContext } from "./styles/theme/themeHandler";
@@ -31,9 +31,7 @@ function App() {
     <Router>
       <ThemeProvider theme={theme}>
         <NavBar />
-        <AppWrapper>
-          <Routes />
-        </AppWrapper>
+        <Routes />
       </ThemeProvider>
     </Router>
   );

@@ -1,38 +1,16 @@
 import React from "react";
-import styled from "styled-components";
-import { Button } from "../../components";
+import { About } from "./About";
+import { Skills } from "./Skills";
 // import { SVGMenu } from "../../assets/Menu";
 
 export const Home = () => {
   return (
     <>
-      <HomeWrapper>
-        {/* <IconButton style={{ color: "white" }}>
-        <SVGMenu />
-      </IconButton> */}
-        <AnimatedButton name="Contact Info" variant="primary" />
-      </HomeWrapper>
-      <div style={{ background: "black", height: 200 }}>Hello</div>
+      <About />
+      <Skills />
     </>
   );
 };
-
-const HomeWrapper = styled.div`
-  padding: 30px;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  align-items: start;
-  /* justify-content: space-between; */
-  justify-content: end;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-  height: 500px;
-  background: #3645f9;
-
-  @media screen and (max-width: 960px) {
-    grid-template-columns: repeat(2, auto);
-    justify-content: end;
-  }
-`;
 
 // const Test = styled.div`
 //   background: url("https://www.westboyntondentistry.com/images/logo.jpg")
@@ -47,16 +25,13 @@ const HomeWrapper = styled.div`
 //   background: #3645f9;
 // `;
 
-const AnimatedButton = styled(Button)`
-  animation: 0.5s ease-out 0s 1 slideIn;
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateY(-100%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-`;
+/* <IconButton style={{ color: "white" }}>
+        <SVGMenu />
+      </IconButton> */
+
+/* <div style={{ height: "1000px" }}>
+          <iframe
+            src="https://www.linkedin.com/in/brandon-rivera-6a0592138?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B3bSFO%2BPdSxeObwnl23Bfpw%3D%3D"
+            width="100%"
+          />
+        </div> */

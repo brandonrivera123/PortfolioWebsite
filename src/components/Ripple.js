@@ -29,9 +29,9 @@ const RippleContainer = styled.div`
 
 /**
  *
- * @param {*} rippleCount
- * @param {*} duration
- * @param {*} cleanUpFunction
+ * @param {number} rippleCount // Number of ripples
+ * @param {number} duration // Duration of ripple effect
+ * @param {function} cleanUpFunction // Function to clean up ripple effects
  */
 const useDebouncedRippleCleanUp = (rippleCount, duration, cleanUpFunction) => {
   useLayoutEffect(() => {

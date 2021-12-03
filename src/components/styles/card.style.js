@@ -13,14 +13,17 @@ export const StyledCard = styled.div`
   font-weight: 500;
   /* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); */
   backdrop-filter: blur(2rem);
-  margin: auto;
-  margin-top: 50px;
+  /* margin: auto;
+  margin-top: 50px; */
   border-radius: 10px;
   color: white;
-  min-height: 200px;
-  width: 50%;
-  display: flex;
+  /* height: 200px;
+  min-height: 200px; */
+  /* width: 50%; */
+  max-width: 45rem;
+  padding: 35px 20px;
+  /* display: flex; */
   /* padding: 10px; */
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 `;
