@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IconButton } from "../..";
 
 export const Nav = styled.nav`
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,8 +17,8 @@ export const Nav = styled.nav`
 export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
-
+  height: 100px;
+  align-items: center;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -52,7 +52,7 @@ export const MobileIcon = styled(IconButton)`
     color: #fff;
     top: 0;
     right: 0;
-    transform: translate(-50%, 30%);
+    transform: translate(-50%, 50%);
     cursor: pointer;
   }
 `;
@@ -69,9 +69,9 @@ export const NavMenu = styled.ul`
     width: 100%;
     margin: 0;
     padding: 0;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
     position: absolute;
-    top: 80px;
+    top: 100px;
     left: ${({ open }) => (open ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
@@ -80,7 +80,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  height: 100px;
   border-bottom: 2px solid transparent;
 
   &:hover {
