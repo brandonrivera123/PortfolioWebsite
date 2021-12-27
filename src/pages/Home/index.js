@@ -1,6 +1,7 @@
 import React from "react";
 import { About } from "./About";
 import { Skills } from "./Skills";
+import { Contact } from "./Contact";
 // import { SVGMenu } from "../../assets/Menu";
 
 export const Home = () => {
@@ -8,6 +9,7 @@ export const Home = () => {
     <>
       <About />
       <Skills />
+      <Contact />
     </>
   );
 };

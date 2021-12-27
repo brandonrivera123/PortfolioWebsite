@@ -5,6 +5,12 @@ import {
 import App from "../App";
 import { DarkModeState } from "../styles/theme/ThemeHandler";
 
+window.scrollTo = jest.fn();
+
+afterAll(() => {
+  jest.clearAllMocks();
+});
+
 test("App renders", () => {
   render(
     <DarkModeState>

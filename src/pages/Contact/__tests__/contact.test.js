@@ -22,5 +22,5 @@ describe("Smoke Tests", () => {
     const linkElement = screen.getByText(/test/i);
     expect(linkElement).toBeInTheDocument();
   });
-  it.todo("See");
+  it.todo("Blank Todo");
 });

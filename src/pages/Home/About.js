@@ -6,7 +6,7 @@ import LinkedIn from "../../assets/images/LinkedIn.jpeg";
 
 export const About = () => {
   return (
-    <AboutWrapper>
+    <AboutWrapper className="about-section">
       <HomeWrapper>
         <AnimatedButton name="Contact Info" variant="primary" />
       </HomeWrapper>
@@ -82,7 +82,7 @@ const ProfileImage = styled.img`
   border-radius: 50%;
   grid-area: profile;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  border: 3px solid #3645f9;
+  /* border: 3px solid #3645f9; */
   transition: 0.1s;
 `;
 
