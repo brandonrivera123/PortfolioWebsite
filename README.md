@@ -16,4 +16,4 @@
 <br/>
 <br/>
 
-[linkedin]: www.linkedin.com/in/BrandonSRivera
+[linkedin]: https://www.linkedin.com/in/BrandonSRivera
