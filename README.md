@@ -12,8 +12,10 @@
 ### Connect with me:
 
 [<img align="left" width="22px" alt="Twitter" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg" />][linkedin]
+[<img align="left" width="22px" alt="Twitter" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/instagram.svg" />][instagram]
 
 <br/>
 <br/>
 
 [linkedin]: https://www.linkedin.com/in/BrandonSRivera
+[instagram]: https://www.instagram.com/brandon_rivera1
