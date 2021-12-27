@@ -11,4 +11,9 @@
 
 ### Connect with me:
 
-<img align="left" width="22px" alt="Twitter" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/twitter.svg" />
+[<img align="left" width="22px" alt="Twitter" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg" />][linkedin]
+
+<br/>
+<br/>
+
+[linkedin]: www.linkedin.com/in/BrandonSRivera
