@@ -4,7 +4,7 @@ import {
   // , cleanup
 } from "@testing-library/react";
 // import renderer from "react-test-renderer";
-import { Contact } from "..";
+import { Projects } from "..";
 // import { Provider } from "react-redux";
 
 // import store from "../../../store";
@@ -15,11 +15,11 @@ import { Contact } from "..";
 
 describe("Smoke Tests", () => {
   it("renders home page", () => {
-    render(<Contact />);
+    render(<Projects />);
   });
   it("checks if text appears", () => {
-    render(<Contact />);
-    const linkElement = screen.getByText(/test/i);
+    render(<Projects />);
+    const linkElement = screen.getByText(/Coming Soon/i);
     expect(linkElement).toBeInTheDocument();
   });
   it.todo("Blank Todo");

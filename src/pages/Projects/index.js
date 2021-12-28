@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Card } from "../../components";
 
-export const Contact = () => {
+export const Projects = () => {
   // console.log(process.env);
   return (
     <div
@@ -16,13 +16,13 @@ export const Contact = () => {
       }}
     >
       <div>
-        <ContactCard>Test</ContactCard>
+        <ProjectCard>Coming Soon!</ProjectCard>
       </div>
     </div>
   );
 };
 
-const ContactCard = styled(Card)`
+const ProjectCard = styled(Card)`
   margin: 50px 30px;
   animation: 0.8s ease-out 0s 1 slideIn;
   @keyframes slideIn {

@@ -15,11 +15,8 @@ function App() {
     const theme = localStorage.getItem("preferred-theme");
     if (theme) {
       const themePreference = localStorage.getItem("preferred-theme");
-      if (themePreference === "dark") {
-        setDarkMode(true);
-      } else {
-        setDarkMode(false);
-      }
+      if (themePreference === "dark") setDarkMode(true);
+      else setDarkMode(false);
     } else {
       localStorage.setItem("preferred-theme", "light");
       setDarkMode(false);

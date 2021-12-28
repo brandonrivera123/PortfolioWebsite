@@ -77,7 +77,7 @@ export const NavBar = (props) => {
             </NavItem>
             <NavItem>
               <NavLinks onClick={() => scrollToTop("top")} to="/contact">
-                Other
+                Projects
               </NavLinks>
             </NavItem>
           </NavMenu>

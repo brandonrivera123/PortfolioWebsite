@@ -11,22 +11,18 @@ export const Contact = () => {
       <section
         style={{
           background: "#3645f9",
-          height: "50%",
+          height: "100%",
           display: "flex",
           justifyContent: "center",
           position: "relative",
         }}
       >
-        <Card style={{ position: "absolute", top: "70%", zIndex: "2" }}>
+        <Card style={{ position: "absolute", top: "45%", zIndex: "2" }}>
           <div>Contact Me</div>
           <FormControl>
             <Input />
           </FormControl>
         </Card>
-      </section>
-      <section
-        style={{ background: "black", height: "50%", position: "relative" }}
-      >
         <Wave>
           <svg
             data-name="Layer 1"
@@ -41,6 +37,9 @@ export const Contact = () => {
           </svg>
         </Wave>
       </section>
+      {/* <section
+        style={{ background: "black", height: "50%", position: "relative" }}
+      ></section> */}
     </div>
   );
 };
@@ -77,6 +76,6 @@ const Wave = styled.div`
   }
 
   .shape-fill {
-    fill: #3645f9;
+    fill: black;
   }
 `;
