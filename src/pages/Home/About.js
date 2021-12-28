@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import { Button } from "../../components";
+// import { Button } from "../../components";
 import { Card } from "../../components";
 import LinkedIn from "../../assets/images/LinkedIn.jpeg";
 
 export const About = () => {
   return (
     <AboutWrapper className="about-section">
-      <HomeWrapper>
+      {/* <HomeWrapper>
         <AnimatedButton name="Contact Info" variant="primary" />
-      </HomeWrapper>
+      </HomeWrapper> */}
       <Header>About Me</Header>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <AboutCard>
@@ -35,23 +35,28 @@ export const About = () => {
 
 const AboutWrapper = styled.div`
   background: #3645f9;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
-const HomeWrapper = styled.div`
-  padding: 30px;
-  display: grid;
-  justify-content: end;
+// const HomeWrapper = styled.div`
+//   padding: 30px;
+//   display: grid;
+//   justify-content: end;
 
-  @media screen and (max-width: 960px) {
-    grid-template-columns: repeat(2, auto);
-    justify-content: end;
-  }
-`;
+//   @media screen and (max-width: 960px) {
+//     grid-template-columns: repeat(2, auto);
+//     justify-content: end;
+//   }
+// `;
 
 const Header = styled.div`
   display: flex;
   justify-content: center;
   font-size: 3rem;
+  padding: 20px;
   font-weight: 600;
   color: white;
 `;
@@ -86,16 +91,16 @@ const ProfileImage = styled.img`
   transition: 0.1s;
 `;
 
-const AnimatedButton = styled(Button)`
-  animation: 0.5s ease-out 0s 1 slideIn;
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateY(-100%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-`;
+// const AnimatedButton = styled(Button)`
+//   animation: 0.5s ease-out 0s 1 slideIn;
+//   @keyframes slideIn {
+//     0% {
+//       opacity: 0;
+//       transform: translateY(-100%);
+//     }
+//     100% {
+//       opacity: 1;
+//       transform: translateY(0);
+//     }
+//   }
+// `;

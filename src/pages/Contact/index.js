@@ -10,9 +10,12 @@ export const Contact = () => {
         background: "black",
         height: "calc(100vh - 100px)",
         overflow: "auto",
+        display: "grid",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
-      <div style={{ display: "grid", justifyItems: "center" }}>
+      <div>
         <ContactCard>Test</ContactCard>
       </div>
     </div>

@@ -15,6 +15,6 @@ import { Home } from "..";
 
 test("renders Home page", () => {
   render(<Home />);
-  const linkElement = screen.getByText(/contact info/i);
+  const linkElement = screen.getByText(/User Experience/i);
   expect(linkElement).toBeInTheDocument();
 });
